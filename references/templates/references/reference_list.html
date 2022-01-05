@@ -1,0 +1,16 @@
+<h1>References</h1>
+
+<table border="1">
+  <tr>
+    <th>ref</th>
+    <th>name</th>
+    <th>description</th>
+  </tr>
+  {% for reference in object_list %}
+  <tr>
+    <th>{{reference.ref}}</th>
+    <th>{{reference.name}}</th>
+    <th>{{reference.description}}</th>
+  </tr>
+  {% endfor %}
+</table>
