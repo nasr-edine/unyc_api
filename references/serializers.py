@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from references.models import Reference
+from .models import Reference
+
 
 class ReferenceSerializer(serializers.ModelSerializer):
 
